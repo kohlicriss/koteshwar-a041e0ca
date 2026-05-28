@@ -14,6 +14,7 @@ import Blogs from "./pages/Blogs";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import FloatingAboutButton from "./components/FloatingAboutButton";
+import Footer from "./components/Footer";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
