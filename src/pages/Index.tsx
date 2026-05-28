@@ -202,42 +202,6 @@ const Index = () => {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-border mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="font-semibold mb-4">Navigate</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><Link to="/" className="hover:text-accent transition-colors">Home</Link></li>
-                <li><Link to="/projects" className="hover:text-accent transition-colors">Projects</Link></li>
-                <li><Link to="/about" className="hover:text-accent transition-colors">About</Link></li>
-                <li><Link to="/contact" className="hover:text-accent transition-colors">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Connect</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="https://github.com/KoteshwarChinnolla" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/koteshwar-chinnolla-2065b4253" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">LinkedIn</a></li>
-                <li><a href="mailto:chinnollakoteshwar@gmail.com" className="hover:text-accent transition-colors">Email</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Skills</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Java, Python, Go, C++</li>
-                <li>Kubernetes, Terraform, AWS</li>
-                <li>LangChain, TensorFlow, PyTorch</li>
-                <li>Kafka, Redis, Docker</li>
-              </ul>
-            </div>
-          </div>
-          <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 Chinnolla Koteshwar. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
