@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import { Mail, Github, Linkedin, MapPin, Phone, ArrowUpRight } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin, ExternalLink, ArrowUpRight } from "lucide-react";
 
 type Channel = {
   name: string;
@@ -43,14 +43,14 @@ const channels: Channel[] = [
     ring: "group-hover:shadow-foreground/20",
   },
   {
-    name: "Phone",
-    icon: Phone,
+    name: "X",
+    icon: ExternalLink,
     description:
-      "Prefer a quick call? Reach me directly for time-sensitive discussions or interview scheduling.",
-    cta: "+91 63007 27875",
-    href: "tel:+916300727875",
-    accent: "from-emerald-500/25 to-teal-400/25 text-emerald-500",
-    ring: "group-hover:shadow-emerald-500/30",
+      "Follow me on X for updates, projects, and quick notes from my portfolio journey.",
+    cta: "@Iam_Koteshwar",
+    href: "https://x.com/Iam_Koteshwar",
+    accent: "from-blue-500/25 to-sky-400/25 text-blue-500",
+    ring: "group-hover:shadow-blue-500/30",
   },
 ];
 

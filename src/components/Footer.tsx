@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Github, Linkedin, Phone, ArrowUpRight, Heart } from "lucide-react";
+import { Mail, Github, Linkedin, ExternalLink, ArrowUpRight, Heart } from "lucide-react";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -14,7 +14,7 @@ const socials = [
   { icon: Github, label: "GitHub", href: "https://github.com/KoteshwarChinnolla" },
   { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/koteshwar-chinnolla-2065b4253" },
   { icon: Mail, label: "Email", href: "mailto:chinnollakoteshwar@gmail.com" },
-  { icon: Phone, label: "Phone", href: "tel:+916300727875" },
+  { icon: ExternalLink, label: "X", href: "https://x.com/Iam_Koteshwar" },
 ];
 
 const Footer = () => {
